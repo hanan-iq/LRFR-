@@ -1,0 +1,34 @@
+random_seed: 123
+embedding_dim: 512
+adapter_bottleneck: 32
+projection_dim: 128
+teacher_beta: 0.40
+
+training:
+  max_epochs: 30
+  early_stopping_patience: 6
+  learning_rate: 0.0002
+  weight_decay: 0.05
+
+loss_weights:
+  id: 1.00
+  kd: 0.30
+  consistency: 0.25
+  triplet: 0.10
+
+arcface:
+  scale: 24.0
+  margin: 0.20
+
+triplet:
+  margin: 0.20
+
+retrieval:
+  top_k_union: 100
+  reciprocal_query_k: 14
+  candidate_k: 10
+  overlap_weight: 0.14
+  mutual_weight: 0.10
+  local_weight: 0.06
+  prototype_weight: 0.05
+  rank_decay_weight: 0.025
