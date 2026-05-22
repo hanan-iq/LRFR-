@@ -1,16 +1,21 @@
 # Expected Results
 
-| Benchmark | Result |
-|---|---:|
-| LFW-ORG | 99.60% |
-| LFW-LR32 | 99.17% |
-| LFW-LR16 | 91.20% |
-| XQLFW | 93.83% |
-| TinyFace Rank-1 | 65.04% |
-| TinyFace Rank-5 | 71.72% |
-| TinyFace Rank-10 | 74.30% |
-| TinyFace Rank-20 | 76.60% |
-| TinyFace AUC | 0.9788 |
-| TinyFace EER | 0.0624 |
-| TinyFace mAP | 68.25% |
+
+| Benchmark               | Result |
+| ----------------------- | -----: |
+| LFW-ORG                 | 99.60% |
+| LFW-LR32                | 99.17% |
+| LFW-LR16                | 91.20% |
+
+| XQLFW                   | 93.83% |
+
+| TinyFace Rank-1         | 65.04% |
+| TinyFace Rank-5         | 71.72% |
+| TinyFace Rank-10        | 74.30% |
+| TinyFace Rank-20        | 76.60% |
+
+| TinyFace AUC            | 0.9788 |
+| TinyFace EER            | 0.0624 |
+| TinyFace mAP            | 68.25% |
 | TinyFace Top-100 Recall | 81.43% |
+
