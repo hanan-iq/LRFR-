@@ -1,4 +1,4 @@
-# LRFR-
+# Q-PEARL Adapter for Low-Resolution Face Recognition
 Q-PEARL-based low-resolution face recognition framework for robust and adaptive recognition under degraded conditions.
 # Q-PEARL: Embedding-Space Adaptation for Native Low-Resolution Face Recognition
 
